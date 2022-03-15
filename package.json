@@ -1,0 +1,19 @@
+{
+  "name": "perfect_number_algorocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npx pkg index.js -t node14-win-x64",
+    "test": "jest"
+  },
+  "author": "jmsrsd",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.1"
+  }
+}
